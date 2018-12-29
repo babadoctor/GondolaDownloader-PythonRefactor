@@ -25,5 +25,3 @@ for i in range(numlines):#enumerate through list
     f.write(dates[i]) #write the new date to the array
     f.write("\n")#newline
 f.close()
-
-
