@@ -7,9 +7,6 @@ import os
 print os.path.split("/Users/babadoctor/Desktop/datechecker/dates.txt")
 print calendar.timegm(time.gmtime())#gets current epoch time
 
-
-
-
 with open("/Users/babadoctor/Desktop/datechecker/parsed.sh") as ff:
     for i, l in enumerate(ff):
         pass
